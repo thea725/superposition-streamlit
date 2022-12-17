@@ -5,8 +5,7 @@ import numpy as np
 st.sidebar.header("Gelombang")
 wa, wb = st.sidebar.tabs(["Gelombang A", "Gelombang B"])
 st.sidebar.code('''Anggota:
-- Muhammad Rifki Muchtar
-- Zidni Ajirul Mujib''')
+- Muhammad Rifki Muchtar''')
 # Gelombang A
 f_a = wa.slider("Frequency", 0, 10, key="f_a")
 a_a = wa.slider("Amplitudo", 0, 10, key="a_a")
